@@ -4,10 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="javascript.js"></script>
+    <script src="javascript.js" defer></script>
     <title>Rock-paper-scissors</title>
 </head>
 <body>
-    
+    <h1 class="score">Computer - <span id="computerScore"></span></h1>
+    <img src="./img/janken.svg" alt="Computer's choice" id="computerChoice" class="tie">
+    <div class="result-container">
+        <div class="result-round"></div>
+        <div class="result-game"></div>
+        <div class="btn-restart hidden"><button>Restart</button></div>
+    </div>
+    <img src="./img/janken.svg" alt="Player's choice" id="playerChoice" class="tie">
+    <h1 class="score">You - <span id="playerScore"></span></h1>
+    <div class="btn-container">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+    </div>
 </body>
 </html>

@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #07553B;
+    color:#CED46A;
+}
+
+#computerChoice, #playerChoice {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+}
+
+.result-container {
+    margin: 30px 0;
+    font-size: 25px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+button {
+    color: #07553B;
+    background-color: #CED46A;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 15%;
+    min-width: 80px;
+}
+
+.tie {
+    border: 5px solid black;
+}
+
+.winner {
+    border-color: green;
+}
+
+.loser {
+    border-color: red;
+}
+
+.hidden {
+    display: none;
+}
